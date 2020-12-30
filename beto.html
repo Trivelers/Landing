@@ -1,4 +1,351 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>Trivelers</title>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="description" content="Unicat project">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" type="text/css" href="styles/bootstrap4/bootstrap.min.css">
+<link href="plugins/font-awesome-4.7.0/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+<link rel="stylesheet" type="text/css" href="plugins/OwlCarousel2-2.2.1/owl.carousel.css">
+<link rel="stylesheet" type="text/css" href="plugins/OwlCarousel2-2.2.1/owl.theme.default.css">
+<link rel="stylesheet" type="text/css" href="plugins/OwlCarousel2-2.2.1/animate.css">
+<link rel="stylesheet" type="text/css" href="styles/main_styles.css">
+<link rel="stylesheet" type="text/css" href="styles/responsive.css">
+</head>
+<body>
+<!-- Load Facebook SDK for JavaScript -->
+      <div id="fb-root"></div>
+      <script>
+        window.fbAsyncInit = function() {
+          FB.init({
+            xfbml            : true,
+            version          : 'v9.0'
+          });
+        };
 
+        (function(d, s, id) {
+        var js, fjs = d.getElementsByTagName(s)[0];
+        if (d.getElementById(id)) return;
+        js = d.createElement(s); js.id = id;
+        js.src = 'https://connect.facebook.net/en_US/sdk/xfbml.customerchat.js';
+        fjs.parentNode.insertBefore(js, fjs);
+      }(document, 'script', 'facebook-jssdk'));</script>
+
+      <!-- Your Chat Plugin code -->
+      <div class="fb-customerchat"
+        attribution=setup_tool
+        page_id="100961858555773">
+      </div>
+
+<div class="super_container">
+
+	<!-- Header -->
+
+	<header class="header">
+			
+		<!-- Top Bar -->
+		<div class="top_bar">
+			<div class="top_bar_container">
+				<div class="container">
+					<div class="row">
+						<div class="col">
+							<div class="top_bar_content d-flex flex-row align-items-center justify-content-start">
+								<ul class="top_bar_contact_list">
+									<li><div class="question">Agencia virtual</div></li>
+									<li>
+										<i class="fa fa-phone" aria-hidden="true"></i>
+										<div>(506) 2222-2222</div>
+									</li>
+									<li>
+										<i class="fa fa-envelope-o" aria-hidden="true"></i>
+										<div>info@trivelers.com</div>
+									</li>
+								</ul>
+								<div class="top_bar_login ml-auto">
+									<div class="login_button"><a href="#">Aplicá aquí</a></div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>				
+		</div>
+
+		<!-- Header Content -->
+		<div class="header_container">
+			<div class="container">
+				<div class="row">
+					<div class="col">
+						<div class="header_content d-flex flex-row align-items-center justify-content-start">
+							<div class="logo_container">
+								<a href="#">
+									<div class="logo_text">Trivelers</div>
+								</a>
+							</div>
+							<nav class="main_nav_contaner ml-auto">
+								<ul class="main_nav">
+									<li class="active"><a href="#">Inicio</a></li>
+									<li><a href="courses.html">Programas</a></li>
+									<li><a href="courses.html">Estudio y Trabajo</a></li>
+									<li><a href="visa.html">Visas</a></li>
+									<li><a href="blog.html">Blog</a></li>
+									<li><a href="about.html">Nosotros</a></li>
+									<li><a href="contact.html">Contáctenos</a></li>
+								</ul>
+								<div class="search_button"><i class="fa fa-search" aria-hidden="true"></i></div>
+
+								<!-- Hamburger -->
+
+								<div class="shopping_cart"><i class="fa fa-shopping-cart" aria-hidden="true"></i></div>
+								<div class="hamburger menu_mm">
+									<i class="fa fa-bars menu_mm" aria-hidden="true"></i>
+								</div>
+							</nav>
+
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<!-- Header Search Panel -->
+		<div class="header_search_container">
+			<div class="container">
+				<div class="row">
+					<div class="col">
+						<div class="header_search_content d-flex flex-row align-items-center justify-content-end">
+							<form action="#" class="header_search_form">
+								<input type="search" class="search_input" placeholder="Search" required="required">
+								<button class="header_search_button d-flex flex-column align-items-center justify-content-center">
+									<i class="fa fa-search" aria-hidden="true"></i>
+								</button>
+							</form>
+						</div>
+					</div>
+				</div>
+			</div>			
+		</div>			
+	</header>
+
+	<!-- Menu -->
+
+	<div class="menu d-flex flex-column align-items-end justify-content-start text-right menu_mm trans_400">
+		<div class="menu_close_container"><div class="menu_close"><div></div><div></div></div></div>
+		<div class="search">
+			<form action="#" class="header_search_form menu_mm">
+				<input type="search" class="search_input menu_mm" placeholder="Search" required="required">
+				<button class="header_search_button d-flex flex-column align-items-center justify-content-center menu_mm">
+					<i class="fa fa-search menu_mm" aria-hidden="true"></i>
+				</button>
+			</form>
+		</div>
+		<nav class="menu_nav">
+			<ul class="menu_mm">
+				<li class="menu_mm"><a href="index.html">Inicio</a></li>
+				<li class="menu_mm"><a href="about.html">Nosotros</a></li>
+				<li class="menu_mm"><a href="visas.html">Visas</a></li>
+				<li class="menu_mm"><a href="programas.html">Programas</a></li>
+				<li class="menu_mm"><a href="programas.html">Estudio y Trabajo</a></li>
+				<li class="menu_mm"><a href="contact.html">Contacto</a></li>
+			</ul>
+		</nav>
+	</div>
+	
+	<!-- Home -->
+
+	<div class="home">
+		<div class="home_slider_container">
+			
+			<!-- Home Slider -->
+			<div class="owl-carousel owl-theme home_slider">
+				
+				<!-- Home Slider Item -->
+				<div class="owl-item">
+					<div class="home_slider_background" style="background-image:url(images/home_slider_1.jpg)"></div>
+					<div class="home_slider_content">
+						<div class="container">
+							<div class="row">
+								<div class="col text-center">
+									<div class="home_slider_title">Líderes en visas y programas internacionales</div>
+									<div class="home_slider_subtitle">Slogan</div>
+									<div class="home_slider_form_container">
+										<form action="#" id="home_search_form_1" class="home_search_form d-flex flex-lg-row flex-column align-items-center justify-content-between">
+											<div class="d-flex flex-row align-items-center justify-content-start">
+												<input type="search" class="home_search_input" placeholder="Palabra Clave" required="required">
+												<select class="dropdown_item_select home_search_input">
+													<option>Servicios</option>
+													<option>Au Pair</option>
+													<option>Camino universitario + 19 años</option>
+													<option>Camino universitario 16 - 18 años</option>
+													<option>Camino universitario 16 - 18 años</option>
+													<option>Campamento de verano 14 - 18 años</option>
+													<option>Intercambio escolar</option>
+													<option>International Experience (18-35 años)</option>
+													<option>Preparación para IELTS + 19 años</option>
+													<option>Preparación para IELTS 16 - 18 años</option>
+													<option>Preparación para TOEFL</option>
+													<option>Programas de Francés</option>
+													<option>Programas de Inglés para adultos</option>
+													<option>Programas de Inglés para jovenes adultos</option>
+													<option>Programas escolares</option>
+													<option>Seguro de viaje</option>
+													<option>Turismo</option>
+													<option>Universidades</option>
+													<option>Visa de estudio</option>
+													<option>Visa de trabajo</option>
+													<option>Visa de turismo</option>
+												</select>
+												<select class="dropdown_item_select home_search_input">
+													<option>País de viaje</option>
+													<option>Cánada</option>
+													<option>Estados Unidos</option>
+													<option>Australia</option>
+													<option>Irlanda</option>
+												</select>
+											</div>
+											<button type="submit" class="home_search_button">Buscar</button>
+										</form>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<!-- Home Slider Nav -->
+
+		<div class="home_slider_nav home_slider_prev"><i class="fa fa-angle-left" aria-hidden="true"></i></div>
+		<div class="home_slider_nav home_slider_next"><i class="fa fa-angle-right" aria-hidden="true"></i></div>
+	</div>
+
+	<!-- Features -->
+
+	<div class="features">
+		<div class="container">
+			<div class="row">
+				<div class="col">
+					<div class="section_title_container text-center">
+						<h2 class="section_title">¿Por qué escoger a Trivelers?</h2>
+						<div class="section_subtitle"><p>En Trivelers creemos en la experiencia del cliente, por eso nuestra asesoría es completa desde el momento que nos contactan hasta el final. Nuestra filosofía es conocer las escuelas, programas, visas y países con los que trabajamos,haciendo de la experiencia la más provechosa para su crecimiento personal y profesional de manera segura e inolvidable.</p></div>
+					</div>
+				</div>
+			</div>
+			<div class="row features_row">
+				
+				<!-- Features Item -->
+				<div class="col-lg-3 feature_col">
+					<div class="feature text-center trans_400">
+						<div class="feature_icon"><img src="images/icon_1.png" alt=""></div>
+						<h3 class="feature_title">Expertos en Visas</h3>
+						<div class="feature_text"><p>Ofrecemos asesoría a las aplicaciones para visas de turismo, estudio, trabajo y tránsito.</p></div>
+					</div>
+				</div>
+
+				<!-- Features Item -->
+				<div class="col-lg-3 feature_col">
+					<div class="feature text-center trans_400">
+						<div class="feature_icon"><img src="images/icon_2.png" alt=""></div>
+						<h3 class="feature_title">Servicio Personalizado</h3>
+						<div class="feature_text"><p>Queremos darte seguridad con nuestro servicio. Agenda tu consulta online.</p></div>
+					</div>
+				</div>
+
+				<!-- Features Item -->
+				<div class="col-lg-3 feature_col">
+					<div class="feature text-center trans_400">
+						<div class="feature_icon"><img src="images/icon_3.png" alt=""></div>
+						<h3 class="feature_title">Webinar Gratuito</h3>
+						<div class="feature_text"><p>Registrate a nuestro próximo webinar sin costo alguno.</p></div>
+					</div>
+				</div>
+
+				<!-- Features Item -->
+				<div class="col-lg-3 feature_col">
+					<div class="feature text-center trans_400">
+						<div class="feature_icon"><img src="images/icon_4.png" alt=""></div>
+						<h3 class="feature_title">Experiencia</h3>
+						<div class="feature_text"><p>Contamos con amplia experiencia e incluso la hemos vivido.</p></div>
+					</div>
+				</div>
+
+			</div>
+		</div>
+	</div>
+
+	<!-- Popular Courses -->
+
+	<div class="courses">
+		<div class="section_background parallax-window" data-parallax="scroll" data-image-src="images/courses_background.jpg" data-speed="0.8"></div>
+		<div class="container">
+			<div class="row">
+				<div class="col">
+					<div class="section_title_container text-center">
+						<h2 class="section_title">Elegí tu programa</h2>
+						<div class="section_subtitle"><p>Experimentá hoy para un mejor mañana</p></div>
+					</div>
+				</div>
+			</div>
+			<div class="row courses_row">
+
+				<!-- Course -->
+				<div class="col-lg-4 course_col">
+					<div class="course">
+						<div class="course_image"><img src="images/course_2.jpg" alt=""></div>
+						<div class="course_body">
+							<h3 class="course_title"><a href="course.html">Estudía y trabajá en Canadá</a></h3>
+							<div class="course_teacher">¿Soñás con estudiar y trabajar en el extranjero?</div>
+							<div class="course_text">
+								<p>Estudiar en Canadá y experimentar una temporada puede cambiar tu vida.</p>
+							</div>
+						</div>
+						<div class="course_footer">
+							<div class="course_footer_content d-flex flex-row align-items-center justify-content-start">
+								<div class="course_info">
+									<i class="fa fa-graduation-cap" aria-hidden="true"></i>
+									<span>20 Programas</span>
+								</div>
+								<div class="course_info">
+									<i class="fa fa-star" aria-hidden="true"></i>
+									<i class="fa fa-star" aria-hidden="true"></i>
+									<i class="fa fa-star" aria-hidden="true"></i>
+									<i class="fa fa-star" aria-hidden="true"></i>
+									<i class="fa fa-star" aria-hidden="true"></i>
+								</div>
+								<div class="course_price ml-auto">Free</div>
+							</div>
+						</div>
+					</div>
+				</div>
+
+				<!-- Course -->
+					<div class="col-lg-4 course_col">
+					<div class="course">
+						<div class="course_image"><img src="images/course_1.jpg" alt=""></div>
+						<div class="course_body">
+							<h3 class="course_title"><a href="course.html">Programas de Inglés</a></h3>
+							<div class="course_teacher">Para jóvenes adultos y adultos (+19), por separado.</div>
+							<div class="course_text">
+								<p>Da el siguiente paso hacia tu futuro en Canadá y prepárate para soñar en grande.</	p>
+							</div>
+						</div>
+						<div class="course_footer">
+							<div class="course_footer_content d-flex flex-row align-items-center justify-content-start">
+								<div class="course_info">
+									<i class="fa fa-graduation-cap" aria-hidden="true"></i>
+									<span>20 Programas</span>
+								</div>
+								<div class="course_info">
+									<i class="fa fa-star" aria-hidden="true"></i>
+									<i class="fa fa-star" aria-hidden="true"></i>
+									<i class="fa fa-star" aria-hidden="true"></i>
+									<i class="fa fa-star" aria-hidden="true"></i>
+									<i class="fa fa-star" aria-hidden="true"></i>
+								</div>
+								<div class="course_price ml-auto">$2000</div>
 							</div>
 						</div>
 					</div>
