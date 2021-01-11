@@ -68,6 +68,32 @@ The base pixel code contains your pixel's ID in two places and looks like this:
 									    
 </head>						
 <body>
+
+
+<script>
+  window.fbAsyncInit = function() {
+    FB.init({
+      appId      : '{781845132452287}',
+      cookie     : true,
+      xfbml      : true,
+      version    : '{v9.0}'
+    });
+      
+    FB.AppEvents.logPageView();   
+      
+  };
+
+  (function(d, s, id){
+     var js, fjs = d.getElementsByTagName(s)[0];
+     if (d.getElementById(id)) {return;}
+     js = d.createElement(s); js.id = id;
+     js.src = "https://connect.facebook.net/en_US/sdk.js";
+     fjs.parentNode.insertBefore(js, fjs);
+   }(document, 'script', 'facebook-jssdk'));
+</script>
+
+
+
 <!-- Load Facebook SDK for JavaScript -->
       <div id="fb-root"></div>
       <script>
@@ -92,29 +118,6 @@ The base pixel code contains your pixel's ID in two places and looks like this:
         page_id="100961858555773">
       </div>
 
-
-
-<script>
-  window.fbAsyncInit = function() {
-    FB.init({
-      appId      : '{781845132452287}',
-      cookie     : true,
-      xfbml      : true,
-      version    : '{v9.0}'
-    });
-      
-    FB.AppEvents.logPageView();   
-      
-  };
-
-  (function(d, s, id){
-     var js, fjs = d.getElementsByTagName(s)[0];
-     if (d.getElementById(id)) {return;}
-     js = d.createElement(s); js.id = id;
-     js.src = "https://connect.facebook.net/en_US/sdk.js";
-     fjs.parentNode.insertBefore(js, fjs);
-   }(document, 'script', 'facebook-jssdk'));
-</script>
 
 
 
