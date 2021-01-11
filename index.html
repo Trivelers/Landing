@@ -168,9 +168,9 @@ The base pixel code contains your pixel's ID in two places and looks like this:
 							</div>
 							<nav class="main_nav_contaner ml-auto">
 								<ul class="main_nav">
-									<li class="active"><a href="#">Inicio</a></li>
-									<li><a href="Programas.html">Programas</a></li>
-									<li><a href="Estudio y trabajo.html">Estudio y Trabajo</a></li>
+									<li onclick='FB.AppEvents.logEvent("buttonClicked")' class="active"><a href="#">Inicio</a></li>
+									<li><a  href="#" onclick='FB.AppEvents.logEvent("buttonClicked")'>Programas</a></li>
+									<li onclick='FB.AppEvents.logEvent("buttonClicked")'><a href="#">Estudio y Trabajo</a></li>
 									<li><a href="visas.html">Visas</a></li>
 									<li><a href="blog.html">Blog</a></li>
 									<li><a href="about.html">Nosotros</a></li>
