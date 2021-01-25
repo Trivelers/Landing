@@ -16,9 +16,31 @@
 <link rel="stylesheet" type="text/css" href="styles/course_responsive.css">
 </head>
 <body>
+ <!-- Load Facebook SDK for JavaScript -->
+      <div id="fb-root"></div>
+      <script>
+        window.fbAsyncInit = function() {
+          FB.init({
+            xfbml            : true,
+            version          : 'v9.0'
+          });
+        };
 
-<div class="super_container">
+        (function(d, s, id) {
+        var js, fjs = d.getElementsByTagName(s)[0];
+        if (d.getElementById(id)) return;
+        js = d.createElement(s); js.id = id;
+        js.src = 'https://connect.facebook.net/en_US/sdk/xfbml.customerchat.js';
+        fjs.parentNode.insertBefore(js, fjs);
+      }(document, 'script', 'facebook-jssdk'));</script>
 
+      <!-- Your Chat Plugin code -->
+      <div class="fb-customerchat"
+        attribution=setup_tool
+        page_id="100961858555773"
+  logged_in_greeting="� ¡Bienvenido a Trivelers, la agencia de programas internacionales en Cánada!"
+  logged_out_greeting="� ¡Bienvenido a Trivelers, la agencia de programas internacionales en Cánada!">
+      </div>
 	<!-- Header -->
 
 	<header class="header">
@@ -180,8 +202,8 @@
 
 							<!-- Course Info Item -->
 							<div class="course_info_item">
-								<div class="course_info_title">Entradas permitidas</div>
-								<div class="course_info_text"><a href="">Multiple</a></div>
+								<div class="course_info_title">Entradas permitidas:</div>
+								<div class="course_info_text"><a href="">Multiples</a></div>
 							</div>
 
 						</div>
@@ -218,10 +240,10 @@
 											<div class="tab_panel_subtitle">¿Cúal es el proceso?</div>
 											<div class="tab_panel_text">
 											<ul class="tab_panel_bullets">
-												<li>Lorem Ipsn gravida nibh vel velit auctor aliquet. Class aptent taciti sociosquad litora torquent.</li>
-												<li>Cursus a sit amet mauris. Morbi accumsan ipsum velit. Nam nec tellus a odio tincidunt auctor a.</li>
-												<li>Nam nec tellus a odio tincidunt auctor a ornare odio. Sed non mauris vitae erat consequat.</li>
-												<li>Morbi accumsan ipsum velit. Nam nec tellus a odio tincidunt auctor a ornare odio.</li>
+												<li>1- Lorem Ipsn gravida nibh vel velit auctor aliquet. Class aptent taciti sociosquad litora torquent.</li>
+												<li>2- Cursus a sit amet mauris. Morbi accumsan ipsum velit. Nam nec tellus a odio tincidunt auctor a.</li>
+												<li>3- Nam nec tellus a odio tincidunt auctor a ornare odio. Sed non mauris vitae erat consequat.</li>
+												<li>4- Morbi accumsan ipsum velit. Nam nec tellus a odio tincidunt auctor a ornare odio.</li>
 											</ul>
 											</div>
 										</div>
@@ -495,7 +517,7 @@
 						<div class="sidebar_section">
 							<div class="sidebar_section_title">Precio - Métodos de pago</div>
 							<div class="sidebar_feature">
-								<div class="course_price">$275</div>
+								<div class="course_price">$275 USD</div>
 
 								<!-- Features -->
 								<div class="feature_list">
@@ -503,7 +525,7 @@
 									<!-- Feature -->
 									<div class="feature d-flex flex-row align-items-center justify-content-start">
 										<div class="feature_title"><i class="fa fa-file-text-o" aria-hidden="true"></i><span>Transferencia</span></div>
-										<div class="feature_text ml-auto">Ver cuentas aquí</div>
+										<div class="feature_text ml-auto"><a href="pagos.html">Ver cuentas aquí</a></div>
 									</div>
 
 									<!-- Feature -->
