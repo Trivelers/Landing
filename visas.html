@@ -23,6 +23,32 @@
 <link rel="stylesheet" type="text/css" href="styles/courses_responsive.css">
 </head>
 <body>
+	
+<!-- Load Facebook SDK for JavaScript -->
+      <div id="fb-root"></div>
+      <script>
+        window.fbAsyncInit = function() {
+          FB.init({
+            xfbml            : true,
+            version          : 'v9.0'
+          });
+        };
+
+        (function(d, s, id) {
+        var js, fjs = d.getElementsByTagName(s)[0];
+        if (d.getElementById(id)) return;
+        js = d.createElement(s); js.id = id;
+        js.src = 'https://connect.facebook.net/en_US/sdk/xfbml.customerchat.js';
+        fjs.parentNode.insertBefore(js, fjs);
+      }(document, 'script', 'facebook-jssdk'));</script>
+
+      <!-- Your Chat Plugin code -->
+      <div class="fb-customerchat"
+        attribution=setup_tool
+        page_id="100961858555773"
+  logged_in_greeting="� ¡Bienvenido a Trivelers, la agencia de programas internacionales en Cánada!"
+  logged_out_greeting="� ¡Bienvenido a Trivelers, la agencia de programas internacionales en Cánada!">
+      </div>
 
 <div class="super_container">
 
@@ -177,7 +203,7 @@
 								<div class="course">
 									<div class="course_image"><img src="images/course_14.jpg" alt=""></div>
 									<div class="course_body">
-										<h3 class="course_title"><a href="tramitatuvisadecanada.html">Canadá 🇨🇦</a></h3>
+										<h3 class="course_title"><a href="visacanada.html">Canadá 🇨🇦</a></h3>
 										<div class="course_teacher"></div>
 										<div class="course_text">
 										</div>
@@ -365,7 +391,7 @@
 							<div class="sidebar_categories">
 								<ul>
 									<li><a href="#">Australia 🇦🇺</a></li>
-									<li><a href="tramitatuvisadecanada.html">Canadá 🇨🇦</a></li>
+									<li><a href="visacanada.html">Canadá 🇨🇦</a></li>
 									<li><a href="#">China 🇨🇳</a></li>
 									<li><a href="#">Estados Unidos 🇺🇸</a></li>
 									<li><a href="#">Marruecos 🇲🇦</a></li>
