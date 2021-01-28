@@ -890,7 +890,7 @@ section
 {
 	width: 120px;
 	height: 46px;
-	background: #219ebc;
+	background: #F9455E;
 	border: none;
 	outline: none;
 	border-radius: 3px;
@@ -1092,7 +1092,7 @@ section
 	width: 210px;
 	height: 46px;
 	border-radius: 3px;
-	background: #219ebc;
+	background: #F9455E;
 	text-align: center;
 	margin: 0 auto;
 	margin-top: 41px;
@@ -1300,7 +1300,7 @@ section
 	text-transform: uppercase;
 	border: none;
 	outline: none;
-	background: #219ebc;
+	background: #F9455E;
 	cursor: pointer;
 	margin-top: 30px;
 	box-shadow: 0px 5px 40px rgba(29,34,47,0.15);
@@ -1761,7 +1761,7 @@ section
 {
 	width: calc(100% - 136px);
 	height: 40px;
-	background: rgba(255,255,255,0.4);
+	background: rgba(33,158,188,1);
 	border: none;
 	outline: none;
 	padding-left: 20px;
@@ -1803,14 +1803,14 @@ section
 {
 	width: 136px;
 	height: 40px;
-	background: #FFFFFF;
+	background: #F9455E;
 	border-radius: 3px;
 	border: none;
 	outline: none;
 	cursor: pointer;
 	font-size: 14px;
 	text-transform: uppercase;
-	color: #219ebc;
+	color: #FFFFFF;
 	font-weight: 500;
 	letter-spacing: 0.1em;
 }
