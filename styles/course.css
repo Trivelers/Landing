@@ -835,7 +835,7 @@ section
 .course_info_item
 {
 	width: 33.33333333%;
-	padding-left: 30px;
+	padding-left: 20px;
 }
 .course_info_item:not(:last-child)::after
 {
