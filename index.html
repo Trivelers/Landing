@@ -61,6 +61,34 @@
 	<!-- Header -->
 
 	<header class="header">
+
+<SCRIPT language=JavaScript>
+<!--
+
+//Accept terms & conditions script (by InsightEye www.insighteye.com)
+//Visit JavaScript Kit (http://javascriptkit.com) for this script & more.
+
+function checkCheckBox(f){
+if (f.agree.checked == false )
+{
+alert('Please check the box to continue.');
+return false;
+}else
+return true;
+}
+//-->
+</SCRIPT>
+
+<form action="index.html" method="POST" onsubmit="return checkCheckBox(this)">
+
+<!--Enter your form contents here-->
+
+<b>Para utilizar Trivelers.com debe aceptar los términos y condiciones.</b><br />
+Cookies: <input type="checkbox" value="0" name="agree">
+<input type="submit" value="Acepto">
+<input type="button" value="Salir" onclick="document.location.href='/index.html';">
+</form>
+
 			
 		<!-- Top Bar -->
 		<div class="top_bar">
@@ -126,35 +154,6 @@
 				</div>
 			</div>
 		</div>
-
-
-
-<SCRIPT language=JavaScript>
-<!--
-
-//Accept terms & conditions script (by InsightEye www.insighteye.com)
-//Visit JavaScript Kit (http://javascriptkit.com) for this script & more.
-
-function checkCheckBox(f){
-if (f.agree.checked == false )
-{
-alert('Please check the box to continue.');
-return false;
-}else
-return true;
-}
-//-->
-</SCRIPT>
-
-<form action="index.html" method="POST" onsubmit="return checkCheckBox(this)">
-
-<!--Enter your form contents here-->
-
-<b>Para utilizar Trivelers.com debe aceptar los t´.</b><br />
-I accept: <input type="checkbox" value="0" name="agree">
-<input type="submit" value="Submit form">
-<input type="button" value="Exit" onclick="document.location.href='/index.html';">
-</form>
 
 		<!-- Header Search Panel -->
 		<div class="header_search_container">
