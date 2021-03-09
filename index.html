@@ -41,7 +41,7 @@
         window.fbAsyncInit = function() {
           FB.init({
             xfbml            : true,
-            version          : 'v9.0'
+            version          : 'v10.0'
           });
         };
 
@@ -49,14 +49,16 @@
         var js, fjs = d.getElementsByTagName(s)[0];
         if (d.getElementById(id)) return;
         js = d.createElement(s); js.id = id;
-        js.src = 'https://connect.facebook.net/en_US/sdk/xfbml.customerchat.js';
+        js.src = 'https://connect.facebook.net/es_ES/sdk/xfbml.customerchat.js';
         fjs.parentNode.insertBefore(js, fjs);
       }(document, 'script', 'facebook-jssdk'));</script>
 
       <!-- Your Chat Plugin code -->
       <div class="fb-customerchat"
-        attribution=setup_tool
-        page_id="100961858555773">
+        attribution="setup_tool"
+        page_id="100961858555773"
+  logged_in_greeting="¡Bienvenido a Trivelers, la agencia de programas internacionales en Cánada!"
+  logged_out_greeting="¡Bienvenido a Trivelers, la agencia de programas internacionales en Cánada!">
       </div>
 
 <div class="super_container">
