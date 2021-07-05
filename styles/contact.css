@@ -267,7 +267,7 @@ section
 .top_bar
 {
 	width: 100%;
-	background: #14bdee;
+	background: #219EBC;
 }
 .header.scrolled .top_bar
 {
@@ -377,7 +377,7 @@ section
 }
 .logo_text
 {
-	font-family: 'Roboto Slab', serif;
+	font-family: 'sans-serif', sans-serif;
 	font-size: 36px;
 	font-weight: 700;
 	line-height: 0.75;
@@ -392,7 +392,7 @@ section
 }
 .logo_text span
 {
-	color: #14bdee;
+	color: #219EBC;
 }
 .header.scrolled .logo
 {
@@ -441,7 +441,7 @@ section
 .main_nav li a:hover,
 .main_nav li.active a
 {
-	color: #14bdee;
+	color: #219EBC;
 }
 .main_nav li.active::after
 {
@@ -451,7 +451,7 @@ section
 	left: 0;
 	width: 100%;
 	height: 2px;
-	background: #14bdee;
+	background: #219EBC;
 	content: '';
 }
 .search_button
@@ -478,7 +478,7 @@ section
 .search_button:hover i,
 .shopping_cart:hover i
 {
-	color: #14bdee;
+	color: #219EBC;
 }
 .header_search_form
 {
@@ -492,7 +492,7 @@ section
 	bottom: 0px;
 	left: 0px;
 	width: 100%;
-	background: #14bdee;
+	background: #219EBC;
 	z-index: -1;
 	opacity: 0;
 	-webkit-transition: all 400ms ease;
@@ -556,7 +556,7 @@ section
 }
 .hamburger:hover i
 {
-	color: #14bdee;
+	color: #219EBC;
 }
 
 /*********************************
@@ -654,7 +654,7 @@ section
 }
 .menu_nav ul li a:hover
 {
-	color: #14bdee;
+	color: #219EBC;
 }
 .menu .search
 {
@@ -800,7 +800,7 @@ section
 }
 .breadcrumbs ul li a:hover
 {
-	color: #14bdee;
+	color: #219EBC;
 }
 
 /*********************************
@@ -883,7 +883,7 @@ section
 }
 .comment_input:focus
 {
-	border: solid 1px #14bdee;
+	border: solid 1px #219EBC;
 	outline: none;
 }
 .comment_textarea
@@ -903,7 +903,7 @@ section
 {
 	width: 150px;
 	height: 46px;
-	background: #14bdee;
+	background: #F9455E;
 	text-transform: uppercase;
 	font-size: 14px;
 	font-weight: 500;
@@ -966,9 +966,6 @@ section
 	left: 0;
 	width: 100%;
 	height: 100%;
-	background-repeat: no-repeat;
-	background-size: cover;
-	background-position: center center;
 }
 .newsletter_container
 {
@@ -1005,7 +1002,7 @@ section
 {
 	width: calc(100% - 136px);
 	height: 40px;
-	background: rgba(255,255,255,0.4);
+	background: rgba(33,158,188,1);
 	border: none;
 	outline: none;
 	padding-left: 20px;
@@ -1047,14 +1044,14 @@ section
 {
 	width: 136px;
 	height: 40px;
-	background: #FFFFFF;
+	background: #F9455E;
 	border-radius: 3px;
 	border: none;
 	outline: none;
 	cursor: pointer;
 	font-size: 14px;
 	text-transform: uppercase;
-	color: #14bdee;
+	color: #FFFFFF;
 	font-weight: 500;
 	letter-spacing: 0.1em;
 }
@@ -1101,7 +1098,7 @@ section
 }
 .footer_logo_text span
 {
-	color: #14bdee;
+	color: #219EBC;
 }
 .footer_title
 {
@@ -1157,7 +1154,7 @@ section
 }
 .footer_social ul li:hover
 {
-	background: #14bdee;
+	background: #219EBC;
 }
 .footer_contact
 {
@@ -1207,7 +1204,7 @@ section
 }
 .footer_links_container ul li a:hover
 {
-	color: #14bdee;
+	color: #219EBC;
 }
 .footer_mobile
 {
@@ -1247,7 +1244,7 @@ section
 }
 .cr_text a:hover
 {
-	color: #14bdee;
+	color: #219EBC;
 }
 .cr_list li:not(:last-child)
 {
@@ -1265,5 +1262,5 @@ section
 }
 .cr_list li a:hover
 {
-	color: #14bdee;
+	color: #219EBC;
 }
