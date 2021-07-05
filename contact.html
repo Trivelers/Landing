@@ -16,6 +16,42 @@
 </head>
 <body>
 
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-LM5Y43S6F9"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-LM5Y43S6F9');
+</script>
+									    
+</head>						
+<body>
+<!-- Load Facebook SDK for JavaScript -->
+      <div id="fb-root"></div>
+      <script>
+        window.fbAsyncInit = function() {
+          FB.init({
+            xfbml            : true,
+            version          : 'v9.0'
+          });
+        };
+
+        (function(d, s, id) {
+        var js, fjs = d.getElementsByTagName(s)[0];
+        if (d.getElementById(id)) return;
+        js = d.createElement(s); js.id = id;
+        js.src = 'https://connect.facebook.net/en_US/sdk/xfbml.customerchat.js';
+        fjs.parentNode.insertBefore(js, fjs);
+      }(document, 'script', 'facebook-jssdk'));</script>
+
+      <!-- Your Chat Plugin code -->
+      <div class="fb-customerchat"
+        attribution=setup_tool
+        page_id="100961858555773">
+      </div>
+
 <div class="super_container">
 
 	<!-- Header -->
@@ -30,18 +66,18 @@
 						<div class="col">
 							<div class="top_bar_content d-flex flex-row align-items-center justify-content-start">
 								<ul class="top_bar_contact_list">
-									<li><div class="question">Have any questions?</div></li>
-									<li>
+									<li><div class="question">Agencia virtual</div></li>
+									 <li>
 										<i class="fa fa-phone" aria-hidden="true"></i>
-										<div>001-1234-88888</div>
+										<div>(506) 2102-6765 </div>
 									</li>
 									<li>
 										<i class="fa fa-envelope-o" aria-hidden="true"></i>
-										<div>info.deercreative@gmail.com</div>
+										<div>info@trivelers.com</div>
 									</li>
 								</ul>
 								<div class="top_bar_login ml-auto">
-									<div class="login_button"><a href="#">Register or Login</a></div>
+									<div class="login_button"><a href="https://www.picktime.com/trivelers">Agendar cita virtual</a></div>
 								</div>
 							</div>
 						</div>
@@ -50,6 +86,43 @@
 			</div>				
 		</div>
 
+<script>
+    var url = 'https://wati-integration-service.clare.ai/ShopifyWidget/shopifyWidget.js?76283';
+    var s = document.createElement('script');
+    s.type = 'text/javascript';
+    s.async = true;
+    s.src = url;
+    var options = {
+  "enabled":true,
+  "chatButtonSetting":{
+      "backgroundColor":"#4dc247",
+      "ctaText":"",
+      "borderRadius":"25",
+      "marginLeft":"0",
+      "marginBottom":"50",
+      "marginRight":"50",
+      "position":"left"
+  },
+  "brandSetting":{
+      "brandName":"Trivelers.com",
+      "brandSubTitle":"Disponible 24/7",
+      "brandImg":"https://trivelers.com/images/isotipo.jpg",
+      "welcomeText":"Bienvenid@ a Trivelers.com\n\nPodés escribirnos por Whatsapp!",
+      "messageText":"Hola,",
+      "backgroundColor":"#0a5f54",
+      "ctaText":"Conversemos",
+      "borderRadius":"25",
+      "autoShow":false,
+      "phoneNumber":"50660336191"
+  }
+};
+    s.onload = function() {
+        CreateWhatsappChatWidget(options);
+    };
+    var x = document.getElementsByTagName('script')[0];
+    x.parentNode.insertBefore(s, x);
+</script>
+
 		<!-- Header Content -->
 		<div class="header_container">
 			<div class="container">
@@ -57,24 +130,25 @@
 					<div class="col">
 						<div class="header_content d-flex flex-row align-items-center justify-content-start">
 							<div class="logo_container">
-								<a href="#">
-									<div class="logo_text">Turi<span>tor</span></div>
+								<a href="index.html">
+									<div class="logo_text">Trivelers<span></span></div>
 								</a>
 							</div>
 							<nav class="main_nav_contaner ml-auto">
 								<ul class="main_nav">
-									<li><a href="index.html">Home</a></li>
-									<li><a href="about.html">About</a></li>
-									<li><a href="courses.html">Courses</a></li>
-									<li><a href="blog.html">Blog</a></li>
-									<li><a href="#">Page</a></li>
-									<li><a href="contact.html">Contact</a></li>
+									<li class="active"><a href="index.html">Inicio</a></li>
+									<li><a href="#">Programas</a></li>
+									<li><a href="#">Estudio y Trabajo</a></li>
+									<li><a href="visas.html">Visas</a></li>
+									<li><a href="#">Blog</a></li>
+									<li><a href="#">Nosotros</a></li>
+									<li><a href="#">Contáctanos</a></li>
 								</ul>
-								<div class="search_button"><i class="fa fa-search" aria-hidden="true"></i></div>
+
 
 								<!-- Hamburger -->
 
-								<div class="shopping_cart"><i class="fa fa-shopping-cart" aria-hidden="true"></i></div>
+								<div class=""><i class="" aria-hidden="true"></i></div>
 								<div class="hamburger menu_mm">
 									<i class="fa fa-bars menu_mm" aria-hidden="true"></i>
 								</div>
@@ -85,6 +159,19 @@
 				</div>
 			</div>
 		</div>
+
+
+<div class='popup' >
+<div class='cnt223'>
+
+<p style="text-align:center">Para acceder a nuestros servicio debe de aceptar los <a href="#">Términos de Uso y Política de privacidad</a> de la plataforma.  </p>
+
+<button style="align:center" href=''  class='home_search_button close' ><a href="#">Acepto</a></button>
+<br/>
+<br/>
+</p>
+</div>
+</div>								
 
 		<!-- Header Search Panel -->
 		<div class="header_search_container">
@@ -119,15 +206,17 @@
 		</div>
 		<nav class="menu_nav">
 			<ul class="menu_mm">
-				<li class="menu_mm"><a href="index.html">Home</a></li>
-				<li class="menu_mm"><a href="#">About</a></li>
-				<li class="menu_mm"><a href="#">Courses</a></li>
+				<li class="menu_mm"><a href="index.html">Inicio</a></li>
+				<li class="menu_mm"><a href="#">Programas</a></li>
+				<li class="menu_mm"><a href="#">Estudio y Trabajo</a></li>
+				<li class="menu_mm"><a href="visas.html">Visas</a></li>
 				<li class="menu_mm"><a href="#">Blog</a></li>
-				<li class="menu_mm"><a href="#">Page</a></li>
-				<li class="menu_mm"><a href="contact.html">Contact</a></li>
+				<li class="menu_mm"><a href="#">Nosotros</a></li>
+				<li class="menu_mm"><a href="#">Contáctanos</a></li>
 			</ul>
 		</nav>
 	</div>
+
 	
 	<!-- Home -->
 
@@ -138,8 +227,8 @@
 					<div class="col">
 						<div class="breadcrumbs">
 							<ul>
-								<li><a href="index.html">Home</a></li>
-								<li>Contact</li>
+								<li><a href="index.html">Inicio</a></li>
+								<li>Contáctanos</li>
 							</ul>
 						</div>
 					</div>
@@ -177,22 +266,26 @@
 					<!-- Contact Form -->
 					<div class="col-lg-6">
 						<div class="contact_form">
-							<div class="contact_info_title">Contact Form</div>
+							<div class="contact_info_title">Contáctanos</div>
 							<form action="#" class="comment_form">
 								<div>
-									<div class="form_title">Name</div>
+									<div class="form_title">Nombre completo</div>
 									<input type="text" class="comment_input" required="required">
 								</div>
 								<div>
-									<div class="form_title">Email</div>
+									<div class="form_title">Correo</div>
+									<input type="text" class="comment_input" required="required">
+							   </div>
+								<div>
+									<div class="form_title">Correo</div>
 									<input type="text" class="comment_input" required="required">
 								</div>
 								<div>
-									<div class="form_title">Message</div>
+									<div class="form_title">Celular</div>
 									<textarea class="comment_input comment_textarea" required="required"></textarea>
 								</div>
 								<div>
-									<button type="submit" class="comment_button trans_200">submit now</button>
+									<button type="submit" class="comment_button trans_200">Enviar mensaje</button>
 								</div>
 							</form>
 						</div>
@@ -201,24 +294,16 @@
 					<!-- Contact Info -->
 					<div class="col-lg-6">
 						<div class="contact_info">
-							<div class="contact_info_title">Contact Info</div>
+							<div class="contact_info_title">Información de contacto</div>
 							<div class="contact_info_text">
-								<p>It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a distribution of letters.</p>
+								<p>¿Interesado en conversar más con nosotros? Nuestro equipo se pondrá en contacto con vos lo antes posible.</p>
 							</div>
 							<div class="contact_info_location">
-								<div class="contact_info_location_title">New York Office</div>
+								<div class="contact_info_location_title">Costa Rica</div>
 								<ul class="location_list">
-									<li>T8/480 Collins St, Melbourne VIC 3000, New York</li>
-									<li>1-234-567-89011</li>
-									<li>info.deercreative@gmail.com</li>
-								</ul>
-							</div>
-							<div class="contact_info_location">
-								<div class="contact_info_location_title">Australia Office</div>
-								<ul class="location_list">
-									<li>Forrest Ray, 191-103 Integer Rd, Corona Australia</li>
-									<li>1-234-567-89011</li>
-									<li>info.deercreative@gmail.com</li>
+									<li>La Ribera de Belen, Heredia</li>
+									<li>(506) 2102-6765</li>
+									<li>info@trivelers.com</li>
 								</ul>
 							</div>
 						</div>
@@ -231,7 +316,7 @@
 	<!-- Newsletter -->
 
 	<div class="newsletter">
-		<div class="newsletter_background" style="background-image:url(images/newsletter_background.jpg)"></div>
+		<div class="newsletter_background parallax-window" data-parallax="scroll" data-image-src="images/newsletter.jpg" data-speed="0.8"></div>
 		<div class="container">
 			<div class="row">
 				<div class="col">
@@ -239,15 +324,15 @@
 
 						<!-- Newsletter Content -->
 						<div class="newsletter_content text-lg-left text-center">
-							<div class="newsletter_title">sign up for news and offers</div>
-							<div class="newsletter_subtitle">Subcribe to lastest smartphones news & great deals we offer</div>
+							<div class="newsletter_title">regístrate para recibir noticias y ofertas</div>
+							<div class="newsletter_subtitle"></div>
 						</div>
 
 						<!-- Newsletter Form -->
 						<div class="newsletter_form_container ml-lg-auto">
 							<form action="#" id="newsletter_form" class="newsletter_form d-flex flex-row align-items-center justify-content-center">
-								<input type="email" class="newsletter_input" placeholder="Your Email" required="required">
-								<button type="submit" class="newsletter_button">subscribe</button>
+								<input type="email" class="newsletter_input" placeholder="Correo electrónico" required="required">
+								<button type="submit" class="newsletter_button">SUSCRIBIRME</button>
 							</form>
 						</div>
 
@@ -273,18 +358,18 @@
 								<div class="footer_section footer_about">
 									<div class="footer_logo_container">
 										<a href="#">
-											<div class="footer_logo_text">Unic<span>at</span></div>
+											<div class="footer_logo_text">Trivelers<span></span></div>
 										</a>
 									</div>
 									<div class="footer_about_text">
-										<p>Lorem ipsum dolor sit ametium, consectetur adipiscing elit.</p>
+										<p>Agencia virtual</p>
 									</div>
 									<div class="footer_social">
 										<ul>
-											<li><a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
-											<li><a href="#"><i class="fa fa-google-plus" aria-hidden="true"></i></a></li>
-											<li><a href="#"><i class="fa fa-instagram" aria-hidden="true"></i></a></li>
-											<li><a href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
+											<li><a href="https://www.facebook.com/Trivelers-100961858555773"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
+											<li><a href="https://instagram.com/trivelersapp?igshid=4f5e8scf318n"><i class="fa fa-instagram" aria-hidden="true"></i></a></li>
+											<li><a href="https://api.whatsapp.com/message/ADMFS6NM5QBJE1"><i class="fa fa-whatsapp" aria-hidden="true"></i></a></li>
+											<li><a href="https://www.youtube.com/channel/UCy5MPPc3p5fZ7CWOp3KIvaQ"><i class="fa fa-youtube" aria-hidden="true"></i></a></li>
 										</ul>
 									</div>
 								</div>
@@ -295,12 +380,12 @@
 					
 								<!-- Footer Contact -->
 								<div class="footer_section footer_contact">
-									<div class="footer_title">Contact Us</div>
+									<div class="footer_title">Contáctanos</div>
 									<div class="footer_contact_info">
 										<ul>
-											<li>Email: Info.deercreative@gmail.com</li>
-											<li>Phone:  +(88) 111 555 666</li>
-											<li>40 Baria Sreet 133/2 New York City, United States</li>
+											<li>Correo: info@trivelers.com</li>
+											<li>Teléfono:  +(506) 2102-6765</li>
+											<li>Whatsapp:  +(506) 6033-6191</li>
 										</ul>
 									</div>
 								</div>
@@ -310,18 +395,23 @@
 							<div class="col-lg-3 footer_col">
 					
 								<!-- Footer links -->
-								<div class="footer_section footer_links">
-									<div class="footer_title">Contact Us</div>
+									<div class="footer_section footer_links">
+									<div class="footer_title"></div>
 									<div class="footer_links_container">
 										<ul>
-											<li><a href="index.html">Home</a></li>
-											<li><a href="about.html">About</a></li>
-											<li><a href="contact.html">Contact</a></li>
-											<li><a href="#">Features</a></li>
-											<li><a href="courses.html">Courses</a></li>
-											<li><a href="#">Events</a></li>
-											<li><a href="#">Gallery</a></li>
-											<li><a href="#">FAQs</a></li>
+											<li><a href="index.html">Inicio</a></li>
+											<li><a href="#">Programas</a></li>
+											<li><a href="#">Estudio y Trabajo</a></li>
+											<li><a href="visas.html">Visas</a></li>
+											<li><a href="#">Blog</a></li>
+											<li><a href="#">Nosotros</a></li>
+											<li><a href="#">Contacto</a></li>
+											<li><a href="https://www.picktime.com/trivelers">Eventos</a></li>
+											<li><a href="https://cotiza.ins-cr.com/frmDatosIncluir.aspx?ID=c11ac322-e6c4-4d13-98d2-9e26ee64c263">Seguro de viaje INS</a></li>
+											<li><a href="https://www.universal-assistance.com/cr-la/agencias.html">Asistencia Travel Ace</a></li>
+											<li><a href="https://www.terrawindglobalprotection.com/acceso_agencias">Asistencia Terra Wind</a></li>
+											<li><a href="#"></a></li>
+											<li><a href="#"></a></li>
 										</ul>
 									</div>
 								</div>
@@ -331,11 +421,9 @@
 							<div class="col-lg-3 footer_col clearfix">
 					
 								<!-- Footer links -->
-								<div class="footer_section footer_mobile">
-									<div class="footer_title">Mobile</div>
+									<div class="footer_section footer_mobile">
+									<div class="footer_title"></div>
 									<div class="footer_mobile_content">
-										<div class="footer_image"><a href="#"><img src="images/mobile_1.png" alt=""></a></div>
-										<div class="footer_image"><a href="#"><img src="images/mobile_2.png" alt=""></a></div>
 									</div>
 								</div>
 								
@@ -350,13 +438,12 @@
 				<div class="col">
 					<div class="copyright d-flex flex-lg-row flex-column align-items-center justify-content-start">
 						<div class="cr_text"><!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
-Copyright &copy;<script>document.write(new Date().getFullYear());</script> All rights reserved | This template is made with <i class="fa fa-heart-o" aria-hidden="true"></i> by <a href="https://colorlib.com" target="_blank">Colorlib</a>
+ &copy;<script>document.write(new Date().getFullYear());</script> Todos los derechos reservados | Trivelers Visas and Programs CR S.R.L. </a>
 <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. --></div>
 						<div class="ml-lg-auto cr_links">
 							<ul class="cr_list">
-								<li><a href="#">Copyright notification</a></li>
-								<li><a href="#">Terms of Use</a></li>
-								<li><a href="#">Privacy Policy</a></li>
+								<li><a href="#">Términos y Condiciones</a></li>
+								<li><a href="#">Política de privacidad</a></li>
 							</ul>
 						</div>
 					</div>
